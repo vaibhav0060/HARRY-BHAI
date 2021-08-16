@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaibhav fitnesss</title>
+    <link rel="icon" href="./img2.png">
+</head> 
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body{
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('./img1.jpg');
+        
+    }
+    
+        .left{
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid rgb(140, 0, 255);
+
+        }
+        .left img{
+            width:40px;
+            filter: invert(100%);
+        }
+        .mid{
+            display: block;
+            width: 35%;
+            margin: 20px auto;
+            border: 2px solid rgb(76, 77, 76);
+
+        }
+        .right{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid red;
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 18px;
+        }
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 15px 15px ;
+
+
+        }
+        .navbar li a:hover, .navbar li a.activate{
+            text-decoration: underline;
+            color: hotpink;
+          
+
+
+        }
+        .btn{
+            margin: 0% 9px;
+background-color: rgb(0, 0, 0);
+color: lightcyan;
+padding: 3px 4px;
+        }
+    
+</style>
+<body>
+    <header class="header" >
+        <!-- left box logo -->
+        <div class="left " >
+            <img src="./img2.png" alt="">
+            <div>V Fitness</div>
+        </div>
+        <!-- for nav  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#"class="active"> home </a></li>
+                <li> <a href="#"> about us </a></li>
+                <li> <a href="#"> fitness calculator</a></li>
+                <li> <a href="#"> contact us</a></li>
+            </ul>
+
+    
+        </div>
+        <!-- right for buttons  -->
+        <div class="right">
+<button class="btn">Call us now </button>
+<button class="btn">Email us</button>
+        </div>
+    </header>
+</body>
+</html>
